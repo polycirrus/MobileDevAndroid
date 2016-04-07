@@ -2,7 +2,7 @@
     <string name="app_name">Mobile Dev: Android</string>
     <string name="button1_text">Button 1</string>
     <string name="button2_text">Button 2</string>
-    <string name="shared_pref_key">fgsfds</string>
+    <string name="shared_pref_key" translatable="false">fgsfds</string>
     <string name="text_view_default_value">This is the default value.</string>
     <string name="button1_text_view_value">You\'ve clicked Button 1.</string>
     <string name="button2_text_view_value">You\'ve clicked Button 2.</string>

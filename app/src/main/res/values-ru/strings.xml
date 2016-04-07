@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">РПОдМП: Android</string>
+    <string name="button1_text">Кнопка 1</string>
+    <string name="button1_text_view_value">Вы нажали на кнопку 1.</string>
+    <string name="button2_text">Кнопка 2</string>
+    <string name="button2_text_view_value">Вы нажали на кнопку 2.</string>
+    <string name="text_view_default_value">Это значение по умолчанию.</string>
+</resources>
