@@ -5,5 +5,7 @@
     <string name="button1_text_view_value">Вы нажали на кнопку 1.</string>
     <string name="button2_text">Кнопка 2</string>
     <string name="button2_text_view_value">Вы нажали на кнопку 2.</string>
-    <string name="text_view_default_value">Это значение по умолчанию.</string>
+    <string name="text_view_default_value">Значение по умолчанию.</string>
+    <string name="button1_message">Сообщение от кнопки 1.</string>
+    <string name="button2_message">Сообщение от кнопки 2.</string>
 </resources>

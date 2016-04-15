@@ -6,4 +6,6 @@
     <string name="text_view_default_value">This is the default value.</string>
     <string name="button1_text_view_value">You\'ve clicked Button 1.</string>
     <string name="button2_text_view_value">You\'ve clicked Button 2.</string>
+    <string name="button1_message">Message from Button 1.</string>
+    <string name="button2_message">Message from Button 2.</string>
 </resources>
