@@ -54,6 +54,18 @@
             android:text="@{text.value}"
             android:gravity="center_vertical|center_horizontal" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/task2Button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/task2Button_text"
+            android:onClick="onTask2ButtonClick"/>
+
     </LinearLayout>
 
 </layout>

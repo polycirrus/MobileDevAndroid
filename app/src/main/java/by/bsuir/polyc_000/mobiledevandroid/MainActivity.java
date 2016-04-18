@@ -1,5 +1,6 @@
 package by.bsuir.polyc_000.mobiledevandroid;
 
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.widget.Toast;
 import by.bsuir.polyc_000.mobiledevandroid.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
+
     private SharedPreferencesString textViewText;
 
     @Override
@@ -36,4 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
         textViewText.setValue(getString(R.string.button2_text_view_value));
     }
+
+    public void onTask2ButtonClick(View view) {
+        Intent intent = new Intent(this, UrlActivity.class);
+        startActivity(intent);
+    }
+
 }

@@ -8,4 +8,16 @@
     <string name="button2_text_view_value">You\'ve clicked Button 2.</string>
     <string name="button1_message">Message from Button 1.</string>
     <string name="button2_message">Message from Button 2.</string>
+    <string name="task2Button_text">Task 2</string>
+    <string name="current_url">Current URL:</string>
+    <string name="setUrlActivityButton_text">Set URL</string>
+    <string name="default_url" translatable="false">google.com</string>
+    <string name="setUrlButton_text">Set URL</string>
+    <string name="old_url_key" translatable="false">old_url_key</string>
+    <string name="new_url_key" translatable="false">new_url_key</string>
+    <string name="old_url">Old URL:</string>
+    <string name="new_url">New URL:</string>
+    <string name="confirmSetUrlDialog_message">Set URL to: </string>
+    <string name="confirmSetUrlDialog_positive">Set</string>
+    <string name="confirmSetUrlDialog_negative">Cancel</string>
 </resources>
