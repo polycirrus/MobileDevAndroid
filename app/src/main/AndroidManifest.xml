@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="by.bsuir.polyc_000.mobiledevandroid">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".UrlActivity" />
-        <activity android:name=".SetUrlActivity"></activity>
+        <activity android:name=".SetUrlActivity" />
+        <activity android:name=".WebPageActivity"></activity>
     </application>
 
 </manifest>

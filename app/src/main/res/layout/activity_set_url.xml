@@ -5,7 +5,7 @@
     <data>
         <variable
             name="model"
-            type="by.bsuir.polyc_000.mobiledevandroid.UrlActivityModel" />
+            type="by.bsuir.polyc_000.mobiledevandroid.SetUrlActivityModel" />
     </data>
 
     <LinearLayout
@@ -30,7 +30,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@{model.url}"/>
+                android:text="@{model.oldUrl}"/>
 
         </LinearLayout>
 
@@ -45,11 +45,13 @@
                 android:gravity="center_vertical"
                 android:text="@string/new_url"/>
 
-            <EditText
+            <by.bsuir.polyc_000.mobiledevandroid.BindableEditText
+                android:id="@+id/newUrlEditText"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@{model.url}"/>
+                android:text="@{model.newUrl}"
+                android:addTextChangedListener="@{model.newUrlEditTextWatcher}"/>
 
         </LinearLayout>
 

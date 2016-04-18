@@ -10,6 +10,8 @@ import by.bsuir.polyc_000.mobiledevandroid.databinding.ActivityUrlBinding;
 
 public class UrlActivity extends AppCompatActivity {
 
+    static final String MODEL = "model";
+
     private UrlActivityModel model;
 
     @Override
@@ -17,16 +19,27 @@ public class UrlActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_url);
 
-        model = new UrlActivityModel(getString(R.string.default_url));
+        if (savedInstanceState != null) {
+            model = savedInstanceState.getParcelable(MODEL);
+        }
+        else {
+            model = new UrlActivityModel(getString(R.string.default_url));
+        }
 
         ActivityUrlBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_url);
         binding.setModel(model);
     }
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        outState.putParcelable(MODEL, model);
+        super.onSaveInstanceState(outState);
+    }
+
     public void onSetUrlActivityButtonClick(View view) {
         Intent intent = new Intent(this, SetUrlActivity.class);
         intent.putExtra(getString(R.string.old_url_key), model.getUrl());
-        startActivityForResult(intent, -1);
+        startActivityForResult(intent, 0);
     }
 
     @Override
