@@ -1,12 +1,9 @@
-package by.bsuir.polyc_000.mobiledevandroid;
+package by.bsuir.polyc_000.mobiledevandroid.models;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.text.TextWatcher;
 
 public class UrlActivityModel extends BaseObservable implements Parcelable {
 

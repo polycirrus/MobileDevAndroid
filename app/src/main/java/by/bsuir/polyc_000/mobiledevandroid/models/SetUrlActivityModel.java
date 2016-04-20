@@ -1,4 +1,4 @@
-package by.bsuir.polyc_000.mobiledevandroid;
+package by.bsuir.polyc_000.mobiledevandroid.models;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;

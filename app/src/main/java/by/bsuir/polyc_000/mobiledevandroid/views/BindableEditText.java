@@ -1,4 +1,4 @@
-package by.bsuir.polyc_000.mobiledevandroid;
+package by.bsuir.polyc_000.mobiledevandroid.views;
 
 import android.content.Context;
 import android.text.TextUtils;

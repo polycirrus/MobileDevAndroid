@@ -1,4 +1,4 @@
-package by.bsuir.polyc_000.mobiledevandroid;
+package by.bsuir.polyc_000.mobiledevandroid.activities;
 
 import android.app.Application;
 import android.app.ProgressDialog;
@@ -10,6 +10,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import by.bsuir.polyc_000.mobiledevandroid.R;
+
 public class WebPageActivity extends AppCompatActivity {
 
     @Override
@@ -17,7 +19,7 @@ public class WebPageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_page);
 
-        String url = getIntent().getStringExtra(getString(R.string.url_key));
+        String url = getIntent().getStringExtra(UrlActivity.URL_KEY);
         if (url == null) {
             exitWithError(getString(R.string.url_not_set_message));
         }

@@ -3,7 +3,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <variable name="text" type="by.bsuir.polyc_000.mobiledevandroid.SharedPreferencesString"/>
+        <variable name="text" type="by.bsuir.polyc_000.mobiledevandroid.models.SharedPreferencesString"/>
     </data>
 
     <LinearLayout

@@ -1,4 +1,4 @@
-package by.bsuir.polyc_000.mobiledevandroid;
+package by.bsuir.polyc_000.mobiledevandroid.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 
+import by.bsuir.polyc_000.mobiledevandroid.R;
+import by.bsuir.polyc_000.mobiledevandroid.models.SetUrlActivityModel;
 import by.bsuir.polyc_000.mobiledevandroid.databinding.ActivitySetUrlBinding;
 
 public class SetUrlActivity extends AppCompatActivity {
 
-    static final String MODEL = "model";
+    private static final String MODEL_KEY = "model";
 
     private SetUrlActivityModel model;
 
@@ -24,10 +24,10 @@ public class SetUrlActivity extends AppCompatActivity {
         setContentView(R.layout.activity_set_url);
 
         if (savedInstanceState != null) {
-            model = savedInstanceState.getParcelable(MODEL);
+            model = savedInstanceState.getParcelable(MODEL_KEY);
         }
         else {
-            model = new SetUrlActivityModel(getIntent().getStringExtra(getString(R.string.old_url_key)));
+            model = new SetUrlActivityModel(getIntent().getStringExtra(UrlActivity.OLD_URL_KEY));
         }
 
         ActivitySetUrlBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_set_url);
@@ -36,7 +36,7 @@ public class SetUrlActivity extends AppCompatActivity {
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
-        outState.putParcelable(MODEL, model);
+        outState.putParcelable(MODEL_KEY, model);
         super.onSaveInstanceState(outState);
     }
 
@@ -58,7 +58,7 @@ public class SetUrlActivity extends AppCompatActivity {
 
     private void finishActivity() {
         Intent intent = getIntent();
-        intent.putExtra(getString(R.string.new_url_key), model.getNewUrl());
+        intent.putExtra(UrlActivity.NEW_URL_KEY, model.getNewUrl());
 
         setResult(RESULT_OK, intent);
         finish();

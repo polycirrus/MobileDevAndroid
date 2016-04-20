@@ -2,7 +2,6 @@
     <string name="app_name">Mobile Dev: Android</string>
     <string name="button1_text">Button 1</string>
     <string name="button2_text">Button 2</string>
-    <string name="shared_pref_key" translatable="false">fgsfds</string>
     <string name="text_view_default_value">This is the default value.</string>
     <string name="button1_text_view_value">You\'ve clicked Button 1.</string>
     <string name="button2_text_view_value">You\'ve clicked Button 2.</string>
@@ -13,18 +12,15 @@
     <string name="setUrlActivityButton_text">Set URL</string>
     <string name="default_url" translatable="false">google.com</string>
     <string name="setUrlButton_text">Set URL</string>
-    <string name="old_url_key" translatable="false">old_url_key</string>
-    <string name="new_url_key" translatable="false">new_url_key</string>
     <string name="old_url">Old URL:</string>
     <string name="new_url">New URL:</string>
     <string name="confirmSetUrlDialog_message">Set URL to: </string>
     <string name="confirmSetUrlDialog_positive">Set</string>
     <string name="confirmSetUrlDialog_negative">Cancel</string>
-    <string name="url_key" translatable="false">url_key</string>
     <string name="url_not_set_message">URL is not set.</string>
     <string name="webView_not_found_message" translatable="false">WebView not found.</string>
     <string name="goButton_text">Go</string>
     <string name="loadingDialog_message">Loading</string>
-    <string name="loadingDialog_title">Loading...</string>
+    <string name="loadingDialog_title">Loading…</string>
     <string name="finished_loading_message">Finished loading</string>
 </resources>

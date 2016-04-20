@@ -5,7 +5,7 @@
     <data>
         <variable
             name="model"
-            type="by.bsuir.polyc_000.mobiledevandroid.SetUrlActivityModel" />
+            type="by.bsuir.polyc_000.mobiledevandroid.models.SetUrlActivityModel" />
     </data>
 
     <LinearLayout
@@ -45,7 +45,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/new_url"/>
 
-            <by.bsuir.polyc_000.mobiledevandroid.BindableEditText
+            <by.bsuir.polyc_000.mobiledevandroid.views.BindableEditText
                 android:id="@+id/newUrlEditText"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
