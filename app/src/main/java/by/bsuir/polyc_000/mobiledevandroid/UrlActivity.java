@@ -44,11 +44,16 @@ public class UrlActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (resultCode == RESULT_OK) {
+        if (resultCode == RESULT_OK && data != null) {
             String newUrl = data.getStringExtra(getString(R.string.new_url_key));
             if (newUrl != null)
                 model.setUrl(newUrl);
         }
     }
 
+    public void onGoButtonClick(View view) {
+        Intent intent = new Intent(this, WebPageActivity.class);
+        intent.putExtra(getString(R.string.url_key), model.getUrl());
+        startActivity(intent);
+    }
 }

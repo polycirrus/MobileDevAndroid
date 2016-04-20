@@ -20,4 +20,11 @@
     <string name="confirmSetUrlDialog_message">Set URL to: </string>
     <string name="confirmSetUrlDialog_positive">Set</string>
     <string name="confirmSetUrlDialog_negative">Cancel</string>
+    <string name="url_key" translatable="false">url_key</string>
+    <string name="url_not_set_message">URL is not set.</string>
+    <string name="webView_not_found_message" translatable="false">WebView not found.</string>
+    <string name="goButton_text">Go</string>
+    <string name="loadingDialog_message">Loading</string>
+    <string name="loadingDialog_title">Loading...</string>
+    <string name="finished_loading_message">Finished loading</string>
 </resources>
