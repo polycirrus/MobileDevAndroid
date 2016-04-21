@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".activities.UrlActivity" />
         <activity android:name=".activities.SetUrlActivity" />
-        <activity android:name=".activities.WebPageActivity"></activity>
+        <activity android:name=".activities.WebPageActivity" />
+        <activity android:name=".activities.StudentsListActivity"></activity>
     </application>
 
 </manifest>

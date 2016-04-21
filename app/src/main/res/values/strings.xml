@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Mobile Dev: Android</string>
     <string name="button1_text">Button 1</string>
     <string name="button2_text">Button 2</string>
     <string name="text_view_default_value">This is the default value.</string>
@@ -23,4 +22,9 @@
     <string name="loadingDialog_message">Loading</string>
     <string name="loadingDialog_title">Loading…</string>
     <string name="finished_loading_message">Finished loading</string>
+    <string name="studentsListTitleTextView_text">Group 351001</string>
+    <string name="imageView_content_description">Student photo</string>
+    <string name="task4Button_text">Task 4</string>
+    <string name="scholarship_message">Does not pay tuition</string>
+    <string name="app_name">Mobile Dev: Android</string>
 </resources>

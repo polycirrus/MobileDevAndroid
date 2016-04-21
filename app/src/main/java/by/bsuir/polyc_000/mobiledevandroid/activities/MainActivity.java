@@ -48,4 +48,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onTask4ButtonClick(View view) {
+        Intent intent = new Intent(this, StudentsListActivity.class);
+        startActivity(intent);
+    }
 }
