@@ -1,4 +1,4 @@
-package by.bsuir.polyc_000.mobiledevandroid.models;
+package by.bsuir.polyc_000.mobiledevandroid.common;
 
 import android.app.Activity;
 import android.content.Context;

@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import by.bsuir.polyc_000.mobiledevandroid.R;
-import by.bsuir.polyc_000.mobiledevandroid.models.SharedPreferencesString;
+import by.bsuir.polyc_000.mobiledevandroid.common.SharedPreferencesString;
 import by.bsuir.polyc_000.mobiledevandroid.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
